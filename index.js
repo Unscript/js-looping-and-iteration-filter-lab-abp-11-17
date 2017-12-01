@@ -1,6 +1,6 @@
 
-function findMatching(){
-  let findMatching = drivers.filter(function(drivers, index, name){
+function findMatching(drivers, index, name){
+  let newDrivers = drivers.filter(function(drivers, index, name){
     return index === name.indexOf(drivers);
-  });  
+  });
 }
